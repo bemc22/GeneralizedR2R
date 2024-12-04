@@ -6,3 +6,15 @@ In this paper, we propose Generalized R2R (GR2R), extending the R2R framework to
 | -----------   | ----------- | ----------- |
 | Poisson/Gaussian/Gamma   | DIV2K| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bemc22/GeneralizedR2R/blob/main/demo_poisson.ipynb)      |
 
+## How to cite
+If this code is useful for your and you use it in an academic work, please consider citing this paper as
+
+
+```bib
+@misc{monroy2024gr2r,
+  author={Monroy, Brayan and Bacca, Jorge and Tachella, Julian},
+  title={Generalized Recorrupted-to-Recorrupted: Self-Supervised Learning Beyond Gaussian Noise}, 
+  year={2024}
+}
+```
+
