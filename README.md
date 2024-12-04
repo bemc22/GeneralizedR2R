@@ -4,7 +4,8 @@ In this paper, we propose Generalized R2R (GR2R), extending the R2R framework to
 ### Implementations
 | Demo  | Noise Type        | Dataset |   Link |  
 | ----------- | -----------   | ----------- | ----------- |
-| Train | Poisson/Gaussian/Gamma   | DIV2K| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bemc22/GeneralizedR2R/blob/main/demo_poisson.ipynb)      |
+|Train| Poisson/Gaussian/Gamma| DIV2K| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bemc22/GeneralizedR2R/blob/main/demo_poisson.ipynb)  |
+|Test| Gaussian| fastMRI | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bemc22/GeneralizedR2R/blob/main/demo_test_gaussian.ipynb)  |
 
 ## How to cite
 If this code is useful for your and you use it in an academic work, please consider citing this paper as
