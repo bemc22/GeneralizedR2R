@@ -5,7 +5,7 @@ In this paper, we propose Generalized R2R (GR2R), extending the R2R framework to
 
 We present GR2R, this loss can be used for unsupervised image denoising with unorganized noisy images where the observation model $`\boldsymbol{y}\sim p(\boldsymbol{y}|\boldsymbol{x})`$ belongs to the natural exponential family as
 ```math
- p(\boldsymbol{y}|\boldsymbol{x})= h(\boldsymbol{y}) \exp( \boldsymbol{y}^{\top} \eta(\boldsymbol{x}) - \phi(\boldsymbol{x}).
+ p(\boldsymbol{y}|\boldsymbol{x})= h(\boldsymbol{y}) \exp( \boldsymbol{y}^{\top} \eta(\boldsymbol{x}) - \phi(\boldsymbol{x})).
 ```
 
 For this family of measurements distribution, we generalize the corruption strategy as
