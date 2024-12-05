@@ -23,6 +23,9 @@ then, the generalize the MSE loss is computed as
 ```
 
 ### Implementations
+
+We provide training and testing demonstrations for image denoising across popular noise distributions belonging to the natural exponential family, such as, Gamma, Poisson, Gaussian, and Binomial noise.
+
 | Demo  | Noise Type        | Dataset |   Link |  
 | ----------- | -----------   | ----------- | ----------- |
 |Train| Poisson/Gaussian/Gamma| DIV2K| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bemc22/GeneralizedR2R/blob/main/demo_denoising.ipynb)  |
