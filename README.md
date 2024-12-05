@@ -17,7 +17,7 @@ For this family of measurements distribution, we generalize the corruption strat
 \boldsymbol{y}_2 =   \frac{1}{\alpha} \boldsymbol{y} -  \frac{(1-\alpha)}{\alpha}\boldsymbol{y}_1,
 ```
 
-then, the generalize the MSE loss is computed as
+then, the generalize MSE loss is computed as
 ```math
 \mathcal{L}_{\text{GR2R-MSE}}^{\alpha}(\boldsymbol{y};f)=\mathbb{E}_{\boldsymbol{y}_1,\boldsymbol{y}_2|\boldsymbol{y},\alpha}  \Vert f(\boldsymbol{y}_1) - \boldsymbol{y}_2 \Vert_2^2.
 ```
