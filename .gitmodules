@@ -1,0 +1,3 @@
+[submodule "deepinv"]
+	path = deepinv
+	url = https://github.com/deepinv/deepinv
