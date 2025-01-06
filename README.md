@@ -1,10 +1,15 @@
 # Generalized Recorrupted-to-Recorrupted: Self-Supervised Learning Beyond Gaussian Noise
 
+[Brayan Monroy](https://bemc22.github.io), [Jorge Bacca](https://scholar.google.com/citations?user=I5f1HjEAAAAJ&hl=es), [Julian Tachella](https://tachella.github.io)
+
+---
+
 [![arXiv](https://img.shields.io/badge/arXiv-2412.04648-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2412.04648)
 
 In this paper, we propose Generalized R2R (GR2R), extending the R2R framework to handle a broader class of noise distribution as additive noise like log-Rayleigh and address the natural exponential family including Poisson and Gamma noise distributions, which play a key role in many applications including low-photon imaging and synthetic aperture radar. We show that the GR2R loss is an unbiased estimator of the supervised loss and that the popular Stein's unbiased risk estimator can be seen as a special case.
 
-
+:loudspeaker: **News**
+- **Jan. 04, 2025**: Fully integrated into [DeepInverse](https://github.com/deepinv/deepinv) [![GitHub Stars](https://img.shields.io/github/stars/deepinv/deepinv?style=social)](https://github.com/deepinv/deepinv), take a look at the [examples](https://deepinv.github.io/deepinv/api/stubs/deepinv.loss.R2RLoss.html#deepinv.loss.R2RLoss)!
 ### Method
 
 We present GR2R, this loss can be used for unsupervised image denoising with unorganized noisy images where the observation model $`\boldsymbol{y}\sim p(\boldsymbol{y}|\boldsymbol{x})`$ belongs to the natural exponential family as
