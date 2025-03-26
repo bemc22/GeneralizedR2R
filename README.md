@@ -37,7 +37,7 @@ We provide training and testing demonstrations for image denoising across popula
 
 | Demo  | Noise Type        | Dataset |   Link |  
 | ----------- | -----------   | ----------- | ----------- |
-|Train| Poisson/Gaussian/Gamma| DIV2K| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bemc22/GeneralizedR2R/blob/main/demo_denoising.ipynb)  |
+|Train| Poisson/Gaussian/Gamma| fastMRI/DIV2K| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bemc22/GeneralizedR2R/blob/main/demo_denoising.ipynb)  |
 |Test|Gamma| DIV2K | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bemc22/GeneralizedR2R/blob/main/demo_test_gamma.ipynb)  |
 |Test|Poisson| DIV2K | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bemc22/GeneralizedR2R/blob/main/demo_test_poisson.ipynb)  |
 |Test| Gaussian| fastMRI | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bemc22/GeneralizedR2R/blob/main/demo_test_gaussian.ipynb)  |
