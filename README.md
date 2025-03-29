@@ -32,6 +32,22 @@ then, the generalize MSE loss is computed as
 \mathcal{L}_{\text{GR2R-MSE}}^{\alpha}(\boldsymbol{y};f)=\mathbb{E}_{\boldsymbol{y}_1,\boldsymbol{y}_2|\boldsymbol{y},\alpha}  \Vert f(\boldsymbol{y}_1) - \boldsymbol{y}_2 \Vert_2^2.
 ```
 
+### Quickstart
+
+To quickly get started with the `GeneralizedR2R` framework, you can use the provided demo scripts for JAX and PyTorch on the MNIST dataset.
+
+**To run the JAX demo:**
+```bash
+python jax_demo.py
+```
+**To run the PyTorch demo:**
+```bash
+python pytorch_demo.py
+```
+
+These scripts will train a model on the MNIST dataset using the GeneralizedR2R framework and display the training progress and results.
+
+
 ### Implementations
 
 We provide training and testing demonstrations for image denoising across popular noise distributions belonging to the natural exponential family, such as, Gamma, Poisson, Gaussian, and Binomial noise.
