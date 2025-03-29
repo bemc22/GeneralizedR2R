@@ -8,6 +8,9 @@ import matplotlib.pyplot as plt
 from tqdm import trange
 import numpy as np
 
+# This setup code is inspired by Santiago L. Valdarram's Keras tutorial "Convolutional autoencoder 
+# for image denoising" (https://keras.io/examples/vision/autoencoder/)
+
 # Data preparation
 def get_dataset():
     transform = transforms.ToTensor()
