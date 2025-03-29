@@ -9,6 +9,7 @@
 In this paper, we propose Generalized R2R (GR2R), extending the R2R framework to handle a broader class of noise distribution as additive noise like log-Rayleigh and address the natural exponential family including Poisson and Gamma noise distributions, which play a key role in many applications including low-photon imaging and synthetic aperture radar. We show that the GR2R loss is an unbiased estimator of the supervised loss and that the popular Stein's unbiased risk estimator can be seen as a special case.
 
 :loudspeaker: **News**
+- **March. 29, 2025**: Native [Jax](https://github.com/bemc22/GeneralizedR2R/blob/main/jax_demo.py) and [PyTorch](https://github.com/bemc22/GeneralizedR2R/blob/main/pytorch_demo.py) demos for MNIST are now available in the repository.
 - **Jan. 04, 2025**: Fully integrated into [DeepInverse](https://github.com/deepinv/deepinv) [![GitHub Stars](https://img.shields.io/github/stars/deepinv/deepinv?style=social)](https://github.com/deepinv/deepinv), take a look at the [examples](https://deepinv.github.io/deepinv/api/stubs/deepinv.loss.R2RLoss.html#deepinv.loss.R2RLoss)!
 ### Method
 
