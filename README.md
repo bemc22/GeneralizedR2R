@@ -12,25 +12,24 @@ In this paper, we propose Generalized R2R (GR2R), extending the R2R framework to
 - **Jan. 04, 2025**: Fully integrated into [DeepInverse](https://github.com/deepinv/deepinv) [![GitHub Stars](https://img.shields.io/github/stars/deepinv/deepinv?style=social)](https://github.com/deepinv/deepinv), take a look at the [examples](https://deepinv.github.io/deepinv/api/stubs/deepinv.loss.R2RLoss.html#deepinv.loss.R2RLoss)!
 ### Method
 
-We present GR2R, this loss can be used for unsupervised image denoising with unorganized noisy images where the observation model $`\boldsymbol{y}\sim p(\boldsymbol{y}|\boldsymbol{x})`$ belongs to the natural exponential family as
+We present GR2R, this loss can be used for unsupervised image denoising with unorganized noisy images where the observation model $`\mathbf{y}\sim p(\mathbf{y}|\mathbf{x})`$ belongs to the natural exponential family as
 ```math
- p(\boldsymbol{y}|\boldsymbol{x})= h(\boldsymbol{y}) \exp( \boldsymbol{y}^{\top} \eta(\boldsymbol{x}) - \phi(\boldsymbol{x})).
+ p(\mathbf{y}|\mathbf{x})= h(\mathbf{y}) \exp( \mathbf{y}^{\top} \eta(\mathbf{x}) - \phi(\mathbf{x})).
 ```
 
 For this family of measurements distribution, we generalize the corruption strategy as
 
 ```math
-\boldsymbol{y}_1 \sim  \; p(\boldsymbol{y}_1| \boldsymbol{y}, \alpha),
+\mathbf{y}_1 \sim  \; p(\mathbf{y}_1| \mathbf{y}, \alpha),
 ```
 ```math
-\boldsymbol{y}_2 =   \frac{1}{\alpha} \boldsymbol{y} -  \frac{(1-\alpha)}{\alpha}\boldsymbol{y}_1,
+\mathbf{y}_2 =   \frac{1}{\alpha} \mathbf{y} -  \frac{(1-\alpha)}{\alpha}\mathbf{y}_1,
 ```
 
 then, the generalize MSE loss is computed as
 ```math
-\mathcal{L}_{\text{GR2R-MSE}}^{\alpha}(\boldsymbol{y};f)=\mathbb{E}_{\boldsymbol{y}_1,\boldsymbol{y}_2|\boldsymbol{y},\alpha}  \Vert f(\boldsymbol{y}_1) - \boldsymbol{y}_2 \Vert_2^2.
+\mathcal{L}_{\text{GR2R-MSE}}^{\alpha}(\mathbf{y};f)=\mathbb{E}_{\mathbf{y}_1,\mathbf{y}_2|\mathbf{y},\alpha}  \Vert f(\mathbf{y}_1) - \mathbf{y}_2 \Vert_2^2.
 ```
-
 ### Implementations
 
 We provide training and testing demonstrations for image denoising across popular noise distributions belonging to the natural exponential family, such as, Gamma, Poisson, Gaussian, and Binomial noise.
