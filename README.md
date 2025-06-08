@@ -1,4 +1,4 @@
-# Generalized Recorrupted-to-Recorrupted: Self-Supervised Learning Beyond Gaussian Noise
+# [CVPR 2025] Generalized Recorrupted-to-Recorrupted: Self-Supervised Learning Beyond Gaussian Noise
 
 [Brayan Monroy](https://bemc22.github.io), [Jorge Bacca](https://scholar.google.com/citations?user=I5f1HjEAAAAJ&hl=es), [Julian Tachella](https://tachella.github.io)
 
