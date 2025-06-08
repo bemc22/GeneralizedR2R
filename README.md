@@ -66,14 +66,12 @@ If this code is useful for your and you use it in an academic work, please consi
 
 
 ```bib
-@misc{monroy2024gr2r,
-  author={Brayan Monroy and Jorge Bacca and Julián Tachella},
-  title={Generalized Recorrupted-to-Recorrupted: Self-Supervised Learning Beyond Gaussian Noise},
-  year={2024},
-  eprint={2412.04648},
-  archivePrefix={arXiv},
-  primaryClass={eess.IV},
-  url={https://arxiv.org/abs/2412.04648}, 
+@inproceedings{monroy2025generalized,
+  title={Generalized recorrupted-to-recorrupted: Self-supervised learning beyond Gaussian noise},
+  author={Monroy, Brayan and Bacca, Jorge and Tachella, Juli{\'a}n},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={28155--28164},
+  year={2025}
 }
 ```
 
