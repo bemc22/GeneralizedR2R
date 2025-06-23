@@ -69,9 +69,10 @@ If this code is useful for your and you use it in an academic work, please consi
 @inproceedings{monroy2025generalized,
   title={Generalized recorrupted-to-recorrupted: Self-supervised learning beyond Gaussian noise},
   author={Monroy, Brayan and Bacca, Jorge and Tachella, Juli{\'a}n},
-  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
-  pages={28155--28164},
-  year={2025}
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+  month={June},
+  year={2025},
+  pages={28155-28164}
 }
 ```
 
