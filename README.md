@@ -3,9 +3,10 @@
 [Brayan Monroy](https://bemc22.github.io), [Jorge Bacca](https://scholar.google.com/citations?user=I5f1HjEAAAAJ&hl=es), [Julian Tachella](https://tachella.github.io)
 
 ---
-
+[![DOI:10.1109/CVPR52734.2025.02622](https://zenodo.org/badge/DOI/110.1109/CVPR52734.2025.02622.svg)](https://doi.org/10.1109/CVPR52734.2025.02622)
 [![arXiv](https://img.shields.io/badge/arXiv-2412.04648-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2412.04648)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/bemc22/GeneralizedR2R)
+
 
 In this paper, we propose Generalized R2R (GR2R), extending the R2R framework to handle a broader class of noise distribution as additive noise like log-Rayleigh and address the natural exponential family including Poisson and Gamma noise distributions, which play a key role in many applications including low-photon imaging and synthetic aperture radar. We show that the GR2R loss is an unbiased estimator of the supervised loss and that the popular Stein's unbiased risk estimator can be seen as a special case.
 
@@ -74,3 +75,4 @@ If this code is useful for your and you use it in an academic work, please consi
   year={2025}
 }
 ```
+
