@@ -3,7 +3,7 @@
 [Brayan Monroy](https://bemc22.github.io), [Jorge Bacca](https://scholar.google.com/citations?user=I5f1HjEAAAAJ&hl=es), [Julian Tachella](https://tachella.github.io)
 
 ---
-
+[![DOI:10.1109/CVPR52734.2025.02622](https://zenodo.org/badge/DOI/110.1109/CVPR52734.2025.02622.svg)](https://doi.org/10.1109/CVPR52734.2025.02622)
 [![arXiv](https://img.shields.io/badge/arXiv-2412.04648-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2412.04648)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/bemc22/GeneralizedR2R)
 
@@ -75,4 +75,5 @@ If this code is useful for your and you use it in an academic work, please consi
   pages={28155-28164}
 }
 ```
+
 
